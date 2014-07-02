@@ -3,11 +3,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="text/javascript" src="https://cdn.pubnub.com/pubnub.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
-    
     <link rel="stylesheet" href="styles.css" />
-    <title>"pub-of-war"</title>    
+    <title>"PubNub Soccer"</title>    
   </head>
 
   <body>
@@ -22,9 +20,9 @@
         <h2>1-D soccer</h2>
         <h4>(Mavis Beacon edition)</h4>
         <div class="team-display">You are on <span id="team-name"></span> team (your ball goes <span id="ball-direction"></span>)</div>
-        <div class="command">TYPE THIS COMMAND AND PRESS ENTER IF YOU WISH TO LIVE (after this text changes)</div>
-        <input class="command-input" placeholder="" />
-        <div id="player-feedback">Good luck, commander</div>
+        <div id="command">Enter the word that appears here</div>
+        <input id="command-input" placeholder="" />
+        <div id="player-feedback">Good luck!</div>
       </header>
 
       <section class="game-area">

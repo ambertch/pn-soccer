@@ -41,13 +41,13 @@
 }
 .information-area .team-display {
 }
-.information-area .command {
+.information-area #command {
 	display: inline-block;
 	padding: 2px;
 	border: 1px solid black;
 	margin: 5px;
 }
-.information-area .command-input {
+.information-area #command-input {
 	display: block;
 	margin: 0px auto;
 }
