@@ -1,0 +1,83 @@
+.hidden {
+	display: none;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+.team-info {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.game-notifications {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+
+#game-board {
+	width: 980px;
+	height: 300px;
+	margin: 0px auto;
+	background-color: #eee;
+}
+
+.information-area {
+	position: relative;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.information-area #team-name {
+	font-weight: 700;
+}
+.information-area .team-display {
+}
+.information-area .command {
+	display: inline-block;
+	padding: 2px;
+	border: 1px solid black;
+	margin: 5px;
+}
+.information-area .command-input {
+	display: block;
+	margin: 0px auto;
+}
+.information-area #player-feedback {			
+/*	-webkit-transition: visibility 1s ease-in-out;
+	-moz-transition: visibility 1s ease-in-out;*/
+}
+
+
+
+.game-area {
+	-moz-box-shadow: inset  0  8px 8px -8px #696868, inset  0 -8px 8px -8px #696868;
+    -webkit-box-shadow: inset  0  8px 8px -8px #696868, inset  0 -8px 8px -8px #696868;
+    box-shadow: inset  0  8px 8px -8px #696868, inset  0 -8px 8px -8px #696868;
+    border-right: 10px solid blue;
+    border-left: 10px solid red;			
+}
+
+.game-area #ball {
+	position: relative;
+	display: inline-block;
+	border-radius: 20px;
+	border: 1px solid #2aa4b2;			
+	height: 40px;			
+	width: 40px;
+	background-color: #8fdce5;
+
+	-webkit-transition: left 0.05s ease-in-out;
+	-moz-transition: left 0.05s ease-in-out;
+	-ms-transition: left 0.05s ease-in-out;
+	-o-transition: left 0.05s ease-in-out;
+	transition: left 0.05s ease-in-out;
+}

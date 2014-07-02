@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="https://cdn.pubnub.com/pubnub.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    
+    <link rel="stylesheet" href="styles.css" />
+    <title>"pub-of-war"</title>    
+  </head>
+
+  <body>
+    <section id="game-board">  
+      <header class="information-area">
+        <div class="team-info">
+          <p class="blue"># blue team players: <span id="blue-team-player-count">unknown...</span></p>
+          <p class="red"># red team players: <span id="red-team-player-count">unknown...</span></p>
+          <p>your team's score: <span id="your-team-score">0</span></p>
+        </div>
+        <div class="game-notifications"></div>
+        <h2>1-D soccer</h2>
+        <h4>(Mavis Beacon edition)</h4>
+        <div class="team-display">You are on <span id="team-name"></span> team (your ball goes <span id="ball-direction"></span>)</div>
+        <div class="command">TYPE THIS COMMAND AND PRESS ENTER IF YOU WISH TO LIVE (after this text changes)</div>
+        <input class="command-input" placeholder="" />
+        <div id="player-feedback">Good luck, commander</div>
+      </header>
+
+      <section class="game-area">
+        <div id="ball" class=""></div>
+      </section>
+    </section>
+  </body>
+</html>
